@@ -3,38 +3,17 @@
 	"packOptions": {
 		"ignore": []
 	},
-	"setting": {
-		"urlCheck": true,
-		"es6": true,
-		"postcss": true,
-		"minified": true,
-		"newFeature": true,
-		"autoAudits": false
-	},
 	"compileType": "miniprogram",
-	"libVersion": "2.14.0",
-	"appid": "wx7eeaac6aefca9998",
+	"libVersion": "2.4.0",
 	"projectname": "public-account",
-	"debugOptions": {
-		"hidedInDevtools": []
+	"scripts": {
+		"beforeCompile": "npm run compile",
+		"beforePreview": "npm run compile",
+		"beforeUpload": "npm run compile"
 	},
-	"isGameTourist": false,
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": -1,
-			"list": []
-		}
-	}
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "wx7eeaac6aefca9998",
+	"condition": {}
 }
